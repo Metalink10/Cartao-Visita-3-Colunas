@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 645px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 8px;
+    
+
+
+}
+
+h1 {
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-family: Big Shoulders Display;
+    padding: 30px;
+    font-size: 25px;
+    text-align: left;
+    padding: 30px 22px;
+}
+
+
+.luxury {
+    width: 214.34px;
+
+}
+
+p {
+    color: rgb(237, 226, 226);
+    font-size: 12px;
+    line-height: 25px;
+    font-family: inter;
+    font: 100;
+    padding: 20px;
+    font-family: inter;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 120px;
+}
+
+img {left: 470px;
+    width: 50px;
+    margin-top: 30px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.img-suvs img {
+    left: 680px;
+}
+
+.img-luxury img {
+    left: 910px;
+}
+
+
+.orange {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+    ;
+
+}
+
+.ligthgreen {
+    background-color:hsl(184, 100%, 22%);
+    
+}
+
+.green {
+    width: 100%;
+   
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+
+button {
+    margin-top: 100px;
+    margin-right: 40px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    font-family: inter;
+    font-size: 12px;
+    background-color: white;
+}
+
+.bt-orange {
+    position: absolute;
+    left: 490px;
+    color: hsl(31, 77%, 52%);
+    top: 365px;
+}
+
+.bt-ligthgreen {
+    right: 670px;
+    top: 365px;
+    position: absolute;
+    color: hsl(179, 100%, 13%);
+}
+
+.bt-green{
+    left: 930px;
+    top: 365px;
+    position: absolute;
+    color: hsl(179, 100%, 13%);
+}
+
